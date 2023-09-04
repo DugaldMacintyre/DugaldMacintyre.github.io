@@ -15,6 +15,10 @@
   column-gap: 1rem;
 }
 
+.nav__logo {
+  cursor: default;
+}
+
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
@@ -46,6 +50,11 @@
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
+}
+
+/* Change header background */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* BREAKPOINTS */
