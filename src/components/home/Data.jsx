@@ -3,16 +3,20 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-        <h1 className="home__title">
-            Dugald Macintyre
+        <div className='home__heading-container'>
+            <h1 className="home__title">Dugald Macintyre</h1>
             <img src="https://raw.githubusercontent.com/arasgungore/arasgungore/main/gifs/waving_hand.gif" alt="hello" className='home__hand'/>
-        </h1>
+        </div>
+
 
         <h3 className="home__subtitle">
             AI & CS Student
         </h3>
         <p className="home__description">
-            Hi! I am a third year student at The University of Edinburgh who is currrently pursuing a BSc (Hons) in Artificial Intelligence and Computer Science. I love solving problems with elegant solutions and designs and I am passionate about Data Science and Web Development
+            Hi! I am a IIIrd year student at The University of Edinburgh, 
+            currently pursuing a BSc (Hons) in Artificial Intelligence and 
+            Computer Science. I like solving challenging problems with the 
+            aim of creating elegant solutions and designs.
         </p>
 
         <a href="#contact" className="button button--flex">

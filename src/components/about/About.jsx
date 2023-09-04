@@ -17,7 +17,11 @@ const About = () => {
                 <Info />
                 
                 <p className="about__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eos sapiente voluptatum doloremque ratione soluta omnis quod neque alias? A incidunt, ad facilis aperiam culpa asperiores dolores dignissimos perferendis maxime.
+                As a student, I'm always eager to learn and apply my knowledge and 
+                I am actively seeking opportunities to gain practical experience and 
+                collaborate on interesting projects. My main interest lie in Data Science
+                and Web Development and I like to use my skills in these areas to try and
+                solve real-world problems (be they big or small).
                 </p>
 
                 <a download="" href={CV} className="button button--flex">

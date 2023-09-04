@@ -37,7 +37,10 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
-  transform: .3s;
+  -webkit-transition: -webkit-transform 0.2s;
+	transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+	transition: transform 0.2s, -webkit-transform 0.2s; 
 }
 
 .nav__icon,
@@ -46,10 +49,16 @@
   display: none;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
 /* Active Link */
 .active-link,
 .nav__link:hover {
   color: var(--title-color-dark);
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Change header background */

@@ -53,14 +53,22 @@
 /* Large */
 @media screen and (max-width: 992px) {
     .skills__container {
-        grid-template-columns: max-content;
+        grid-template-columns: 60%;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__container {
+        grid-template-columns: 80%;
         row-gap: 2rem;
     }
 }
 
 @media screen and (max-width: 576px) {
     .skills__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 90%;
+        row-gap: 2rem;
     }
 
     .skills__content {

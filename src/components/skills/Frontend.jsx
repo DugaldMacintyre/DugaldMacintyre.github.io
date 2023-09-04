@@ -70,3 +70,9 @@ const Frontend = () => {
 }
 
 export default Frontend
+
+
+// Languages and Tools: Python, C, Java, JavaScript, Git, GitHub
+// Libraries: TensorFlow, scikit-learn, Pandas, Seaborn, Matplotlib, Flask 
+// Web Dev: Node.js, ReactJS, Express, MongoDB, Relational Database (MySQL), HTML + CSS 
+//  Soft Skills: Problem- Solving, Self-learning, Presentation, Adaptability, Teamwork, Microsoft Office (Excel + Powerpoint)

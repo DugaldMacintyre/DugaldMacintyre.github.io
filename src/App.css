@@ -7,10 +7,10 @@
   --header-height: 3rem;
 
   /* Colours */
-  --hue: 0;
+  --hue: 60;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color: hsl(var(--hue), var(--sat), 25%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 5%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -154,6 +154,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: .2s;
 }
 
 .button:hover {
