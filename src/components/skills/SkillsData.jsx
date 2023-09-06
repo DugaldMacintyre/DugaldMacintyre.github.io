@@ -10,8 +10,8 @@ export const skillsData = [
         ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"]
       ],
       competency: [
-        ["Intermediate", "Intermediate", "Intermediate"],
-        ["Intermediate", "Intermediate", "Intermediate"]
+        ["Advanced", "Intermediate", "Intermediate"],
+        ["Basic", "Intermediate", "Intermediate"]
       ]
     },
     {
@@ -25,8 +25,8 @@ export const skillsData = [
           ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"]
         ],
         competency: [
-          ["Intermediate", "Intermediate", "Intermediate"],
-          ["Intermediate", "Intermediate", "Intermediate"]
+          ["Intermediate", "Advanced", "Advanced"],
+          ["Intermediate", "Intermediate", "Basic"]
         ]
       },
       {
@@ -40,22 +40,23 @@ export const skillsData = [
           ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"]
         ],
         competency: [
-          ["Intermediate", "Intermediate", "Intermediate"],
-          ["Intermediate", "Intermediate", "Intermediate"]
+          ["Basic", "Intermediate", "Intermediate"],
+          ["Intermediate", "Intermediate", "Advanced"]
         ]
       },
       {
         title: "Soft Skills",
         skills: [
           ["Problem- Solving", "Self-Learning", "Presentation"],
-          ["Adaptability", "Teamwork", "Microsoft Office (Excel + Powerpoint)"]
+          ["Adaptability", "Teamwork", "Microsoft Office "]
+          // (Excel + Powerpoint)
         ],
         logos: [
           ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"],
           ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"]
         ],
         competency: [
-          ["Intermediate", "Intermediate", "Intermediate"],
+          ["Advanced", "Advanced", "Intermediate"],
           ["Intermediate", "Intermediate", "Intermediate"]
         ]
       }

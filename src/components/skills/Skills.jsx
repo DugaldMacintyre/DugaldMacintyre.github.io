@@ -4,23 +4,6 @@ import SkillsContainer from './SkillsContainer';
 import { skillsData } from './SkillsData'; 
 
 const Skills = () => {
-
-  const title = "Languages and Tools";
-  const skills = [
-    ["Python", "C", "Java"],
-    ["JavaScript", "Git", "GitHub"]
-  ];
-
-  const logos = [
-    ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"],
-    ["bx bx-badge-check", "bx bx-badge-check", "bx bx-badge-check"]
-  ];
-
-  const competency = [
-    ["Intermediate", "Intermediate", "Intermediate"],
-    ["Intermediate", "Intermediate", "Intermediate"]
-  ];
-
   return (
     <section className="skills section" id="skills">
         <h2 className="section__title">Skills</h2>

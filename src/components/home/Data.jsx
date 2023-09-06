@@ -13,7 +13,7 @@ const Data = () => {
             AI & CS Student
         </h3>
         <p className="home__description">
-            Hi! I am a IIIrd year student at The University of Edinburgh, 
+            Hi! I am a 3rd year student at The University of Edinburgh, 
             currently pursuing a BSc (Hons) in Artificial Intelligence and 
             Computer Science. I like solving challenging problems with the 
             aim of creating elegant solutions and designs.
